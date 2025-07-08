@@ -1,0 +1,46 @@
+*{
+    width:auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containner{
+   
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 63); 
+}
+/* meu menu de navegação*/
+#cabecalho #menu{
+   
+    padding: 10px;
+    color: #fff;
+    margin-left: 60%;
+    display: flex;
+    
+}
+/* estilização da tag UL */
+.lista{
+   
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    gap: 10px;
+}
+
+.lista li:hover{
+     color: chocolate;
+     transition-duration: 0.5s;
+}
+
+/* paragrafo Welcome studiou*/
+.pa{
+    padding-bottom: 10%;
+    color: #fff;
+}
+
+#studio{
+    color: chocolate;
+}
+
+
