@@ -1,0 +1,8 @@
+img.imag {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 0.625rem; /* 10px em rem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; 
+}

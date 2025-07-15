@@ -1,0 +1,51 @@
+/* Estilos do modo escuro */
+body.dark {
+    background-color: black;
+    color: #f1f1f1;
+}
+/* Estilos do cabeçalho e rodapé no modo escuro */
+body.dark .cabecalho,
+body.dark footer {
+    background-color: #111;
+}
+/* Estilos dos links e textos no modo escuro */
+body.dark .menu-nav a,
+body.dark .logo,
+body.dark a,
+body.dark h1,
+body.dark p,
+body.dark li {
+    color: #f1f1f1;
+}
+
+body.dark .dark-mode {
+    background-color: black;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode {
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: rgb(2, 2, 63);
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+    padding: 0.2rem;
+    
+}
+
+body.dark .dark-mode:hover { 
+    color: chocolate;
+    transition-duration: 0.5s;
+}
+.dark-mode:hover {
+    color: chocolate;
+    transition-duration: 0.5s;
+}
+
+
+
+    

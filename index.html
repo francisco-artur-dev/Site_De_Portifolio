@@ -4,66 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site De Portifolio</title>
-    <link rel="stylesheet" href="css/quad.css">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/pic.css">
-    <link rel="stylesheet" href="css/modo.css">
+    <title>Site De Portfólio</title>
     
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/assets/css/quad.css">
+    <link rel="stylesheet" href="/assets/css/modo.css">
+    <link rel="stylesheet" href="/assets/css/estilo.css">
+    <link rel="stylesheet" href="/assets/css/pic.css">
 </head> 
-<body >
-  
-    <div class="containner">
-        <!-- Nesta seção criou-se o cabeçalho da página-->
-        <header id="cabecalho">
-            <nav id="menu">
+
+<body>
+        <!-- Cabeçalho -->
+        <header class="cabecalho">
+            <!-- Logo do site -->
+            <a href="#" class="logo">MeuSite</a>  
+            <!-- Botão de menu hamburguer e modo noturno -->
+           <div class="header-actions">
+               <div class="hamburguer" id="hamburguer">&#9776;</div>
+                <input type="button" class="dark-mode" value="Modo Noturno" tabindex="0"
+                                                            role="button" id="dark-mode">
+           </div>
+            <!-- Navegação do menu -->
+            <nav class="menu-nav">
                 <ul class="lista">
-                     
-                    <li>Home </li>
-                    <li>About </li>
-                    <li>Join Us </li>
-                    <li>Contacts </li>
-
-                </ul> 
-                <!-- Botão de alternar modo claro/escuro-->
-              <input type="button" id="modo" value="Modo Noturno"  onclick="modo()">
-  
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
             </nav>
-        
-        <!-- imagem do fundo-->
+        </header>
+
+        <!-- Imagem de fundo -->
         <picture class="img">
-
-            <img src="assets/devs.jpg" alt="imagem de fundo"  class="imag">
-
+            <img src="assets/img/devs.jpg" alt="imagem de fundo" class="imag">
         </picture>
-       
-        <!-- Nesta seção criou-se dives vaziaas para se prencher com cores-->
-        <section class="Quad">
-            <div class="quad">
 
+        <!-- Quadrados coloridos -->
+        <section class="Quadrados">
+            <div class="lista-quadrados">
                 <div class="azul"></div>
                 <div class="amarelo"></div>
                 <div class="rosa"></div>
                 <div class="verde"></div>
-        
             </div>
-          
         </section>
-        <!-- Nesta seção criou-se um footer que será o nosso rodapé-->
+
+        <!-- Rodapé -->
         <footer>
-            <h1 class="pa">Welcome to <span id="studio">Studious</span></h1>
-
+            <h1 class="welcome">Welcome to Studious</h1>
             <div class="icones">
-            <div class="icon"></div>
-            <div class="icon"></div>
-            <div class="icon"></div>
+                <div class="icon"></div>
+                <div class="icon"></div>
+                <div class="icon"></div>
             </div>
-
-            
+            <p class="copyright">© 2025 FADev. All rights reserved.</p>
         </footer>
-
-    </div>
-      <script src="script/dark.js"></script>
+    
+    <!-- Scripts -->
+    <script src="assets/js/hamburguer.js"></script>
+    <script src="assets/js/dark.js"></script>
 </body>
 </html>
-
